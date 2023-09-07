@@ -1,47 +1,36 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
 </script>
 
 <main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
+  <h1>Svelte Toggle Switches</h1>
+  <h2>Coming Soon</h2>
   <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
+    To keep updated on latest developments, check out our <a
+      href="https://github.com/Team-GOATS"
+      target="_blank"
+      rel="noreferrer">GitHub</a
+    >
   </p>
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
+  main {
+    color: #f5f5f5;
+    text-align: center;
+    margin: 10rem auto;
   }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+  h2 {
+    color: #0284c7;
   }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
+  p {
+    margin: 4rem auto;
   }
-  .read-the-docs {
-    color: #888;
+  a {
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: all 0.6s ease-in-out;
+  }
+  a:hover {
+    color: #0284c7;
   }
 </style>
