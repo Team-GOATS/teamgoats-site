@@ -63,31 +63,10 @@ animation_water
     on:click={toggleTheme}
   />
   <span class="theme-toggle-sr">Toggle theme</span>
-  <svg id="svg" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
-    <path class="path" d="M0 50 L 12 50, 12 0, 25 0" fill="currentColor">
-      <animate
-        id="dash"
-        attributeName="stroke-dashoffset"
-        from="290"
-        to="0"
-        begin="indefinite"
-        dur="6s"
-        fill="freeze"
-      />
-    </path>
-  </svg>
 </label>
 
 <style>
-  @keyframes dash {
-    from {
-      stroke-dashoffset: 290;
-    }
-    to {
-      stroke-dashoffset: 0;
-    }
-  }
-  input,
+ 
   span {
     display: none;
   }
