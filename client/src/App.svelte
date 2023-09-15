@@ -1,7 +1,9 @@
 <script>
+  import Toggle from "./lib/Toggle.svelte";
 </script>
 
 <main>
+  <Toggle />
   <h1>Svelte Toggle Switches</h1>
   <h2>Coming Soon</h2>
   <p>
@@ -15,7 +17,6 @@
 
 <style>
   main {
-    color: #f5f5f5;
     text-align: center;
     margin: 10rem auto;
   }
@@ -26,11 +27,12 @@
     margin: 4rem auto;
   }
   a {
-    color: #f5f5f5;
     text-decoration: none;
     transition: all 0.6s ease-in-out;
   }
   a:hover {
     color: #0284c7;
   }
+
+
 </style>
