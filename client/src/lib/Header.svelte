@@ -144,12 +144,6 @@
     cursor: pointer;
   }
 
-  .menuBtn:active .nav {
-    display: block;
-    margin: 10px 20px;
-    fill: #14a96d;
-  }
-
   @media (min-width: 780px) {
     .nav {
       display: flex;
