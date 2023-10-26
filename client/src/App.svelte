@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-  }
+overflow-x: "hidden";  }
 
   .contentBox {
     display: flex;
