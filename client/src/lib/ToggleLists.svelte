@@ -48,9 +48,8 @@
   .toggleContainer {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 20px;
-    column-gap: 30px;
-    margin: 20px;
+    row-gap: 30px;
+    margin: 30px;
   }
 
   .toggleCard {
@@ -80,14 +79,12 @@
   @media (min-width: 768px) {
     .toggleContainer {
       grid-template-columns: 1fr 1fr;
-      gap: 0;
     }
   }
 
   @media (min-width: 980px) {
     .toggleContainer {
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 25px;
     }
   }
 </style>

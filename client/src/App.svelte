@@ -28,37 +28,37 @@
   <Footer />
 </main>
 
-
 <style>
   main {
     color: #f5f5f5;
     text-align: center;
-    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
   p {
     margin: 4rem auto;
   }
-  a {
-    color: #f5f5f5;
-    text-decoration: none;
-    transition: all 0.6s ease-in-out;
-  }
-  a:hover {
-    color: #0284c7;
-  }
-
 
   .titleSection {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10px;
   }
+
   .titleSection h1 {
     background: linear-gradient(to right, #2563eb, #3eadcf);
     -webkit-background-clip: text; /* For compatibility with some web browsers */
     background-clip: text;
     color: transparent;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .titleSection p {
@@ -71,11 +71,12 @@
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 40px;
+    transition: all 0.4s ease-in-out;
   }
 
   .titleSection a:hover {
-    color: #235dab;
-    font-size: 30px;
+    color: #4570e6;
+    font-size: 32px;
     text-decoration: underline;
   }
 </style>
