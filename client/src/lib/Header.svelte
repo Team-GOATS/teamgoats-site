@@ -3,11 +3,13 @@
   function toggleClass() {
     isClassAdded = !isClassAdded;
   }
+
+import Logo from "../src/img/logo.png";
 </script>
 
 <header class="headerContainer">
   <a class="headerLink logo" href="/">
-    <img class="headerImg logoImg" src="../src/img/logo.png" alt="logo" />
+    <img class="headerImg logoImg" src={Logo} alt="Team GOATs "Goat" Logo" />
     <span class="logoName">THE GOATS</span>
     <img
       class="headerImg modeSwitch"
