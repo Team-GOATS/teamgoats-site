@@ -35,9 +35,6 @@
     text-align: center;
     margin: 10rem auto;
   }
-  h2 {
-    color: #0284c7;
-  }
   p {
     margin: 4rem auto;
   }
