@@ -5,6 +5,7 @@
   }
 
 import Logo from "../img/logo.png";
+import Moon from "../img/moon.svg";
 </script>
 
 <header class="headerContainer">
@@ -13,7 +14,7 @@ import Logo from "../img/logo.png";
     <span class="logoName">THE GOATS</span>
     <img
       class="headerImg modeSwitch"
-      src="../src/img/moon.svg"
+      src={Moon}
       alt="dark light mode"
     />
   </a>
