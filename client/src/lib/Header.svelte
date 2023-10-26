@@ -144,7 +144,7 @@
     cursor: pointer;
   }
 
-  .menuBtn::active .nav {
+  .menuBtn:active .nav {
     display: block;
     margin: 10px 20px;
     fill: #14a96d;
