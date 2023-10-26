@@ -4,12 +4,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
+
   background-color: #0a0a0a ; 
   /* black #0a0a0a */
-=======
   background-color: #0a0a0a;
->>>>>>> b6a0b2bff739c6e89a34574b7604d8f7968fb118
 }
 
 h1,
@@ -18,30 +16,23 @@ h3,
 h4,
 h5,
 h6,
-<<<<<<< HEAD
 span,
 a,
-=======
->>>>>>> b6a0b2bff739c6e89a34574b7604d8f7968fb118
 p {
   font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-<<<<<<< HEAD
   font-size: 50px;
-=======
   font-size: 67.34px;
->>>>>>> b6a0b2bff739c6e89a34574b7604d8f7968fb118
 }
 
 h2 {
   font-size: 50.52px;
 }
-<<<<<<< HEAD
+
 
 a {
   text-decoration: none;
 }
-=======
->>>>>>> b6a0b2bff739c6e89a34574b7604d8f7968fb118
+
