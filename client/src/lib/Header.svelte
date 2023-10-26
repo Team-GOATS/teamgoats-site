@@ -9,7 +9,7 @@ import Logo from "../src/img/logo.png";
 
 <header class="headerContainer">
   <a class="headerLink logo" href="/">
-    <img class="headerImg logoImg" src={Logo} alt="Team GOATs "Goat" Logo" />
+    <img class="headerImg logoImg" src={Logo} alt="Team GOATs Goat Logo" />
     <span class="logoName">THE GOATS</span>
     <img
       class="headerImg modeSwitch"
