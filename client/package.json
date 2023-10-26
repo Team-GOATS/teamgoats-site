@@ -12,8 +12,11 @@
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
     "svelte": "^4.0.5",
     "vite": "^4.4.5"
+<<<<<<< HEAD
   },
   "dependencies": {
     "svelte-toggles": "^1.1.4"
+=======
+>>>>>>> b6a0b2bff739c6e89a34574b7604d8f7968fb118
   }
 }
