@@ -28,43 +28,6 @@
   <Footer />
 </main>
 
-<style>
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    min-height: 100vh;
-    margin: 0 auto;
-    color: #f5f5f5;
-    text-align: center;
-    position: relative;
-  }
-
-  .contentBox {
-    max-width: 1300px;
-    align-self: center;
-    justify-self: start;
-  }
-
-  a {
-    color: #f5f5f5;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-=======
-</script>
-
-<main>
-  <h1>Svelte Toggle Switches</h1>
-  <h2>Coming Soon</h2>
-  <p>
-    To keep updated on latest developments, check out our <a
-      href="https://github.com/Team-GOATS"
-      target="_blank"
-      rel="noreferrer">GitHub</a
-    >
-  </p>
-</main>
 
 <style>
   main {
@@ -82,12 +45,11 @@
     color: #f5f5f5;
     text-decoration: none;
     transition: all 0.6s ease-in-out;
->>>>>>> b6a0b2bff739c6e89a34574b7604d8f7968fb118
   }
   a:hover {
     color: #0284c7;
   }
-<<<<<<< HEAD
+
 
   .titleSection {
     display: flex;
@@ -119,6 +81,4 @@
     font-size: 30px;
     text-decoration: underline;
   }
-=======
->>>>>>> b6a0b2bff739c6e89a34574b7604d8f7968fb118
 </style>
