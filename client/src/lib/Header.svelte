@@ -4,7 +4,7 @@
     isClassAdded = !isClassAdded;
   }
 
-import Logo from "../src/img/logo.png";
+import Logo from "../img/logo.png";
 </script>
 
 <header class="headerContainer">
