@@ -35,8 +35,8 @@ body li{
 
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
-    background-color: var(--secondary);
-    color: var(--primary);
+    background-color: var(--primary);
+    color: var(--secondary);
   }
 }
 
