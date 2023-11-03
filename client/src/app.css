@@ -12,16 +12,16 @@
 }
 
 body {
-  background-color: var(--primary);
-  color: var(--secondary);
+  background-color: var(--secondary);
+  color: var(--primary);
   overflow-x: hidden;
 }
 body a{
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 body .menuBtn{
-  fill : var(--secondary)
+  fill : var(--primary)
 }
 
 body li{
@@ -35,21 +35,21 @@ body li{
 
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
-    background-color: var(--primary);
-    color: var(--secondary);
+    background-color: var(--secondary);
+    color: var(--primary);
   }
 }
 
 body.light{
-  background-color: var(--secondary);
-  color: var(--primary);
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 body.light a {
-  color: var(--primary);  
+  color: var(--secondary);  
 }
 
 body.light .menuBtn {
-  fill: var(--primary);
+  fill: var(--secondary);
 }
 
 body.light li{
