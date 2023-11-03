@@ -14,7 +14,7 @@
     <img src={logo} alt="github logo" />
   </a>
 
-  <span>&copy;{currentYear} Team Goats - Holmsglen</span>
+  <span>&copy;{currentYear} Team Goats - Holmseglen</span>
 </footer>
 
 <style>
