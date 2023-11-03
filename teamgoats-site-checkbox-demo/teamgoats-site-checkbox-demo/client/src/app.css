@@ -12,8 +12,8 @@
 }
 
 body {
-  background-color: var(--secondary);
-  color: var(--primary);
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,8 +24,8 @@ body {
 }
 
 body.dark {
-  background-color: var(--primary);
-  color: var(--secondary);
+  background-color: var(--secondary);
+  color: var(--primary);
 }
 
 h1 {
