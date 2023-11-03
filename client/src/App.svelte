@@ -15,7 +15,7 @@
     <p>
       Svelte Toggles Switches - your one-stop shop for Light & Dark mode
       solution! We've got all the Local Storage mumbo-jumbo covered; all you
-      need is your creative touch to switch themes. Svelte Toggles will continue
+      need is your creative touch to switch themes. <br><br> Svelte Toggles will continue
       to be maintained, ensuring you have reliable support in the long run. So
       why break a sweat when you can switch with a smile? Join the Svelte
       Toggles revolution today!
