@@ -1,7 +1,7 @@
 <script>
   import Basic from "svelte-toggles/src/Basic";
   import Eclipse from "svelte-toggles/src/Eclipse";
-  import Expand from "svelte-toggles/src/Eclipse";
+  import Expand from "svelte-toggles/src/Expand";
   import Slide from "svelte-toggles/src/Slide";
 </script>
 
