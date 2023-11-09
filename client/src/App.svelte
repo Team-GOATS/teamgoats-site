@@ -2,8 +2,8 @@
   import Header from "./lib/Header.svelte";
   import Footer from "./lib/Footer.svelte";
   import Basic from "./lib/toggles/Basic.svelte";
-  import Toggle2 from "./lib/toggles/Toggle2.svelte";
-  import Toggle3 from "./lib/toggles/Toggle3.svelte";
+  import Simple from "./lib/toggles/Simple.svelte";
+  import Horizon from "./lib/toggles/Horizon.svelte";
 </script>
 
 <main>
@@ -14,11 +14,11 @@
 
     <p>
       Svelte Toggles Switches - your one-stop shop for Light & Dark mode
-      solusion! We've got all the Local Storage mumbo-jumbo covered; all you
-      need is your creative touch to switch themes. Svelte Toggles will continue
-      to be maintained, ensuring you have reliable support in the long run. So
-      why break a sweat when you can switch with a smile? Join the Svelte
-      Toggles revolution today!
+      solution! We've got all the Local Storage mumbo-jumbo covered; all you
+      need is your creative touch to switch themes. <br /><br /> Svelte Toggles will
+      continue to be maintained, ensuring you have reliable support in the long run.
+      So why break a sweat when you can switch with a smile? Join the Svelte Toggles
+      revolution today!
     </p>
 
     <a
@@ -42,28 +42,28 @@
         </a>
       </li>
 
-      <li class="toggle2">
-        <div class="toggle-container commingsoon-container">
-          <Toggle2 />
+      <li>
+        <div class="toggle-container simple-container">
+          <Simple />
         </div>
         <a href="https://github.com/Team-GOATS/svelte-toggles-npm-package">
           <div class="toggle-info">
-            <h3 class="toggle-name">Toggle2</h3>
-            <p class="toggle-description">Coming soon ...</p>
-            <p class="check-more">Stay tuned!</p>
+            <h3 class="toggle-name">Simple</h3>
+            <p class="toggle-description">Sun Morphs into Moon</p>
+            <p class="check-more">Check More</p>
           </div>
         </a>
       </li>
 
-      <li class="toggle3">
-        <div class="toggle-container commingsoon-container">
-          <Toggle3 />
+      <li>
+        <div class="toggle-container horizon-container">
+          <Horizon />
         </div>
         <a href="https://github.com/Team-GOATS/svelte-toggles-npm-package">
           <div class="toggle-info">
-            <h3 class="toggle-name">Toggle3</h3>
-            <p class="toggle-description">Coming soon ...</p>
-            <p class="check-more">Stay tuned!</p>
+            <h3 class="toggle-name">Horizon</h3>
+            <p class="toggle-description">Sun falls behind Horizon</p>
+            <p class="check-more">Check More</p>
           </div>
         </a>
       </li>
@@ -136,17 +136,15 @@
     display: grid;
     justify-items: stretch;
     justify-content: center;
+    width: 100%;
   }
 
   ul {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, minmax(10rem, 20rem));
-    grid-template-rows: 1fr;
     row-gap: 3rem;
-    column-gap: 2rem;
-    justify-items: stretch;
-    align-items: stretch;
+    /* column-gap: 2rem; */
   }
 
   li {
@@ -156,62 +154,27 @@
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 0.15s;
+    /* width: 100%; */
   }
 
   li:hover {
     transform: scale(1.05);
   }
 
-  .toggle2,
-  .toggle3 {
-    display: none;
-  }
-
-  @media (min-width: 768px) {
-    ul {
-      grid-template-columns: repeat(2, minmax(10rem, 20rem));
-      gap: 3rem;
-    }
-
-    .toggle2 {
-      display: block;
-    }
-
-    .intro-section p {
-      width: 62%;
-      max-width: 52rem;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    ul {
-      width: 100%;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      grid-template-rows: 1fr;
-    }
-
-    .toggle3 {
-      display: block;
-    }
-  }
-
   .toggle-container {
-    padding: 2rem;
-    background-color: #97a5c0;
-    width: 100%;
-    height: 70%;
+    padding: 4rem;
   }
 
   .basic-container {
     background-color: rgb(191 210 250);
-    padding: 4rem 2rem;
   }
 
-  .commingsoon-container {
-    background-color: lightgrey;
-    padding: 0;
-    display: grid;
-    align-items: center;
+  .simple-container {
+    background-color: #bcdb9c;
+  }
+
+  .horizon-container {
+    background-color: #cfbaff;
   }
 
   .toggle-info {
@@ -236,5 +199,26 @@
   .check-more {
     font-weight: 600;
     color: #4570e6;
+  }
+
+  @media (min-width: 768px) {
+    ul {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 3rem;
+    }
+
+    .intro-section p {
+      width: 62%;
+      max-width: 52rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    ul {
+      width: 100%;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-rows: 1fr;
+    }
   }
 </style>
