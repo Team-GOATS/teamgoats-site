@@ -84,7 +84,6 @@
   }
   .navLink:hover {
     color: #4570e6;
-    font-weight: bold;
   }
 
   .github {
