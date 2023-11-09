@@ -1,5 +1,5 @@
 <script>
-  import logo from "../assets/team goats logo.png";
+  import GoatsLogo from "../assets/goatsLogo.svg";
 
   let currentYear = new Date().getFullYear();
 
@@ -11,7 +11,7 @@
 <footer class="footer">
   <h3>TEAM GOATS</h3>
   <a href="https://github.com/Team-GOATS/svelte-toggles-npm-package">
-    <img src={logo} alt="github logo" />
+    <img src={GoatsLogo} alt="Team logo" />
   </a>
 
   <span>&copy;{currentYear} Team Goats - Holmseglen</span>
